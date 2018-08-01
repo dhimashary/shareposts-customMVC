@@ -1,0 +1,48 @@
+.sections {
+	background-color: black;
+	opacity: 0.5;
+}
+
+h4:hover {
+	color: #4790CD;
+	text-decoration: none;
+	cursor: pointer;
+}
+.userico {
+	width: 25px;
+	height: 25px;
+}
+span{
+	opacity: 1;
+	color: white;
+}
+#sticky-sidebar {
+    min-height: 100vh;
+}
+#btn-1:hover, #btn-2:hover, #btn-3:hover, #btn-4:hover, #btn-5:hover, #btn-6:hover, #btn-7:hover, #btn-8:hover, #btn-9:hover {
+	background-color: lightgrey;
+}
+.imageContainer {
+	 object-fit: cover;
+	width: 300px;
+	height: 140px;
+}
+#mainTitle {
+	font-size: 190%;
+	text-decoration: underline;
+}
+#subTitle {
+	font-size: 100%;
+	opacity: 0.8;
+}
+.commentavatar {
+	width: 60px;
+	height: auto;
+}
+.usercomment{
+	font-size: 80%;
+}
+.showuser:hover{
+	cursor: pointer;
+	color: #ADD8E6;
+}

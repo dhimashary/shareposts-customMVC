@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  ErrorDocument 403 http://localhost/shareposts
+  ErrorDocument 404 http://localhost/shareposts
+  Options -Indexes
+  Options -Multiviews
+  RewriteEngine On
+  RewriteBase /shareposts/public
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule  ^(.+)$ index.php?url=$1 [QSA,L]
+  
+</IfModule>
